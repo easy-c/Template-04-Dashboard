@@ -1,0 +1,137 @@
+/* border */
+.br-6-btn {
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.br-6 {
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.br-10 {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.br-circle {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+/* border */
+
+/* padding + margin ... */
+.p-20 {
+    padding: 20px;
+}
+/* padding + margin ... */
+/* box model */
+.d-flex {
+    display: flex;
+}
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* colors */
+.c-blue {
+    color: #0075ff;
+}
+.c-orange {
+    color: #f59e0b;
+}
+.c-green {
+    color: #22c55e;
+}
+.c-red {
+    color: #f44336;
+}
+.c-twetter {
+    color: #1DA1F2;
+}
+.c-facebook {
+    color: #1877F2;
+}
+.c-youtube {
+    color: #CD201F;
+}
+.c-linkedin {
+    color: #0A66C2;
+}
+
+.bg-blue {
+    background-color: #0075ff;
+}
+.bg-orange {
+    background-color: #f59e0b;
+}
+.bg-green {
+    background-color: #22c55e;
+}
+.bg-red {
+    background-color: #f44336;
+}
+.bg-blue-20 {
+    background-color: rgb(0 117 255 / 20%);
+}
+.bg-orange-20 {
+    background-color: rgb(245 158 11 / 20%);
+}
+.bg-green-20 {
+    background-color: rgb(34 197 94 / 20%);
+}
+.bg-twetter {
+    background-color: #1DA1F2;
+}
+.bg-facebook {
+    background-color: #1877F2;
+}
+.bg-youtube {
+    background-color: #CD201F;
+}
+.bg-linkedin {
+    background-color: #0A66C2;
+}
+.bg-twetter-20 {
+    background-color: rgb(29 161 242 / 20%);
+}
+.bg-facebook-20 {
+    background-color: rgb(24 119 242 / 20%);
+}
+.bg-youtube-20 {
+    background-color: rgb(255 0 0 / 20%);
+}
+.bg-linkedin-20 {
+    background-color: rgb(0 119 181 / 20%);
+}
+/* colors */
+
+/* width + height */
+.w-80 {
+    width: 80%;
+}
+.w-55 {
+    width: 55%;
+}
+.w-75 {
+    width: 75%;
+}
+/* width + height */
+/* other */
+@media (max-width:767px) {
+    .hide-mobile {
+        display: none;
+    }
+}
+/* other */
+
