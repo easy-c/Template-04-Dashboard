@@ -18,6 +18,7 @@
         rel="stylesheet">
     <!-- CSS FILE -->
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/fw.css">
     <title>Dashboard</title>
 </head>
 
@@ -97,15 +98,199 @@
     <!-- ASIDE -->        
 
     <!-- MAIN -->
-    <main>
+    <main class="settings">
         <h1>settings</h1>
+        <div class="container">
+            <!-- site control -->
+            <div class="box br-10 p-20">
+                <div class="text">
+                    <h2>site control</h2>
+                    <span>control the site if there is a maintenance</span>
+                </div>
+                <div class="control">
+                    <div class="web-control">
+                        <div class="text">
+                            <span class="title">website control</span>
+                            <span class="explain">open/close website & type the reason</span>
+                        </div>
+                        <label class="toggle">
+                            <input type="checkbox" checked>
+                            <div class="switch"></div>
+                        </label>
+                    </div>
+                    <textarea class="br-6" placeholder="Close Message Content"></textarea>
+                </div>
+            </div>
+            <!-- general info -->
+            <div class="box br-10 p-20">
+                <div class="text">
+                    <h2>general info</h2>
+                    <span>general information about your account</span>
+                </div>
+                <form class="general">
+                    <div class="field">
+                        <label for="">first name</label>
+                        <input type="text" placeholder="First Name">
+                    </div>
+                    <div class="field">
+                        <label for="">last name</label>
+                        <input type="text" placeholder="Last Name">
+                    </div>
+                    <div class="field special">
+                        <label for="">email</label>
+                        <input type="email" value="o@nn.com" disabled>
+                        <a href="">change</a>
+                    </div>
+                </form>
+            </div>
+            <!-- security info -->
+            <div class="box br-10 p-20">
+                <div class="text">
+                    <h2>security info</h2>
+                    <span>security information about your account</span>
+                </div>
+                <div class="security">
+                    <div class="set">
+                        <div class="text">
+                            <span class="title">password</span>
+                            <span class="explain">last change on 14/02/2023</span>
+                        </div>
+                        <a href="">change</a>
+                    </div>
+                    <div class="set">
+                        <div class="text">
+                            <span class="title">two-factor authentication</span>
+                            <span class="explain">enable/disable the feature</span>
+                        </div>
+                        <label class="toggle">
+                            <input type="checkbox" checked>
+                            <div class="switch"></div>
+                        </label>
+                    </div>
+                    <div class="set">
+                        <div class="text">
+                            <span class="title">devices</span>
+                            <span class="explain">check the login devices list</span>
+                        </div>
+                        <a href="">devices</a>
+                    </div>
+                </div>
+            </div>
+            <!-- social info -->
+            <div class="box br-10 p-20">
+                <div class="text">
+                    <h2>social info</h2>
+                    <span>social media information</span>
+                </div>
+                <form class="sm-user">
+                    <div class="media">
+                        <input type="text" placeholder="Twitter Username">
+                        <i class="fa-brands fa-twitter flex-center"></i>
+                    </div>
+                    <div class="media">
+                        <input type="text" placeholder="Facebook Username">
+                        <i class="fa-brands fa-facebook-f flex-center"></i>
+                    </div>
+                    <div class="media">
+                        <input type="text" placeholder="Linkedin Username">
+                        <i class="fa-brands fa-linkedin flex-center"></i>
+                    </div>
+                    <div class="media">
+                        <input type="text" placeholder="Youtube Username">
+                        <i class="fa-brands fa-youtube flex-center"></i>
+                    </div>
+                    
+                </form>
+            </div>
+            <!-- widgets control -->
+            <div class="box br-10 p-20">
+                <div class="text">
+                    <h2>widgets control</h2>
+                    <span>show/hide widgets</span>
+                </div>
+                <div class="w-control">
+                    <label class="widget">
+                        <input type="checkbox" checked>
+                        <div class="true"></div>
+                        <span>quick draft</span>
+                    </label>
+                    <label class="widget">
+                        <input type="checkbox" checked>
+                        <div class="true"></div>
+                        <span>yearly targets</span>
+                    </label>
+                    <label class="widget">
+                        <input type="checkbox" checked>
+                        <div class="true"></div>
+                        <span>tickets statistics</span>
+                    </label>
+                    <label class="widget">
+                        <input type="checkbox" checked>
+                        <div class="true"></div>
+                        <span>latest news</span>
+                    </label>
+                    <label class="widget">
+                        <input type="checkbox">
+                        <div class="true"></div>
+                        <span>latest tasks</span>
+                    </label>
+                    <label class="widget">
+                        <input type="checkbox" checked>
+                        <div class="true"></div>
+                        <span>top search items</span>
+                    </label>
+                </div>
+            </div>
+            <!-- backup manager -->
+            <div class="box br-10 p-20">
+                <div class="text">
+                    <h2>backup manager</h2>
+                    <span>control backup time and location</span>
+                </div>
+                <div class="backup-m">
+                    <div class="time">
+                        <label class="t-choose">
+                            <input type="radio" name="time">
+                            <div class="select"></div>
+                            <span>daily</span>
+                        </label>
+                        <label class="t-choose">
+                            <input type="radio" checked name="time">
+                            <div class="select"></div>
+                            <span>weekly</span>
+                        </label>
+                        <label class="t-choose">
+                            <input type="radio" name="time">
+                            <div class="select"></div>
+                            <span>monthly</span>
+                        </label>
+                    </div>
+                    <div class="location">
+                        <label class="l-choose">
+                            <input type="radio" name="location">
+                            <div class="l-select"></div>
+                            <i class="fa-solid fa-server"></i>
+                            <span>megaman</span>
+                        </label>
+                        <label class="l-choose">
+                            <input type="radio" name="location">
+                            <div class="l-select"></div>
+                            <i class="fa-solid fa-server"></i>
+                            <span>zero</span>
+                        </label>
+                        <label class="l-choose">
+                            <input type="radio" name="location">
+                            <div class="l-select"></div>
+                            <i class="fa-solid fa-server"></i>
+                            <span>sigma</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
     </main>
     <!-- MAIN -->
-
-    <!-- FOOTER -->
-    
-    <!-- FOOTER -->
-
 </body>
 
 </html>
