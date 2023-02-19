@@ -27,6 +27,15 @@
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
+.btn-shape {
+    padding: 0 10px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    width: fit-content;
+}
 /* border */
 
 /* padding + margin ... */
@@ -127,6 +136,11 @@
     width: 75%;
 }
 /* width + height */
+/* font */
+.fs-14 {
+    font-size: 14px;
+}
+/* font */
 /* other */
 @media (max-width:767px) {
     .hide-mobile {

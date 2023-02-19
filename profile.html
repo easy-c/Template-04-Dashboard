@@ -17,13 +17,71 @@
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap"
         rel="stylesheet">
     <!-- CSS FILE -->
+    <link rel="stylesheet" href="css/fw.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Dashboard</title>
 </head>
 
 <body>
-    <!--  HEADER -->
-        <header>
+    <!-- ASIDE -->
+        <aside>
+            <a href="#" class="logo">talib</a>
+            <ul class="nav">
+                <li>
+                    <a href="index.html">
+                        <i class="fa-solid fa-house"></i>
+                        <span>dashboard</span>
+                        </a>
+                </li>
+                <li>
+                    <a href="settings.html">
+                        <i class="fa-solid fa-gear"></i>
+                        <span>settings</span>
+                    </a>
+                </li>
+                <li class="active">
+                    <a href="profile.html">
+                        <i class="fa-regular fa-user"></i>
+                        <span>profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="projects.html">
+                        <i class="fa-solid fa-diagram-project"></i>
+                        <span>projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="courses.html">
+                        <i class="fa-solid fa-user-graduate"></i>
+                        <span>courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="friends.html">
+                        <i class="fa-solid fa-user-group"></i>
+                        <span>friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="files.html">
+                        <i class="fa-regular fa-file"></i>
+                        <span>files</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="plans.html">
+                        <i class="fa-regular fa-credit-card"></i>
+                        <span>plans</span>
+                    </a>
+                </li>
+            </ul>
+        </aside>
+    <!-- ASIDE --> 
+    
+    <div class="header-main">
+        <!--  HEADER -->
+            <header>
                 <div class="search-bar">
                     <i class="fa-solid fa-magnifying-glass"></i>
                     <input type="text" placeholder="Type a keyword">
@@ -37,74 +95,234 @@
                     </a>
 
                 </div>
-        </header>
-    <!--  HEADER -->
+            </header>
+        <!--  HEADER -->       
 
-     <!-- ASIDE -->
-        <aside>
-                    <a href="#" class="logo">talib</a>
-                    <ul class="nav">
-                        <li>
-                            <a href="index.html">
-                                <i class="fa-solid fa-house"></i>
-                                <span>dashboard</span>
-                                </a>
-                        </li>
-                        <li>
-                            <a href="settings.html">
-                                <i class="fa-solid fa-gear"></i>
-                                <span>settings</span>
-                            </a>
-                        </li>
-                        <li class="active">
-                            <a href="profile.html">
-                                <i class="fa-regular fa-user"></i>
-                                <span>profile</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="projects.html">
-                                <i class="fa-solid fa-diagram-project"></i>
-                                <span>projects</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="courses.html">
-                                <i class="fa-solid fa-user-graduate"></i>
-                                <span>courses</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="friends.html">
-                                <i class="fa-solid fa-user-group"></i>
-                                <span>friends</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="files.html">
-                                <i class="fa-regular fa-file"></i>
-                                <span>files</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="plans.html">
-                                <i class="fa-regular fa-credit-card"></i>
-                                <span>plans</span>
-                            </a>
-                        </li>
-                    </ul>
-        </aside>
-    <!-- ASIDE -->        
-
-    <!-- MAIN -->
-    <main>
-        <h1>profile</h1>
-    </main>
-    <!-- MAIN -->
-
-    <!-- FOOTER -->
-    
-    <!-- FOOTER -->
+        <!-- MAIN -->
+        <main class="profile">
+                <h1>profile</h1>
+                <div class="profile-widgets">
+                    <div class="profile-info box br-10 p-20 flex-center">
+                        <div class="user-info">
+                            <img src="images/avatar.png" alt="">
+                            <h3>oussama et talib</h3>
+                            <span>level 20</span>
+                            <div class="progress-lvl"></div>
+                            <div class="pro-rate">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        <span class="fs-14">550 rating</span>
+                        </div>
+                        <div class="private-info">
+                            <div class="p-info">
+                                <h4>general information</h4>
+                                <div class="gi">
+                                    <span>
+                                        full name: 
+                                        <span class="rep">
+                                            oussama et talib
+                                        </span>
+                                    </span>
+                                    <span>
+                                        gender: 
+                                        <span class="rep">
+                                            male
+                                        </span>
+                                    </span>
+                                    <span>
+                                        country: 
+                                        <span class="rep">
+                                            morocco  
+                                        </span>
+                                    </span>
+                                    <label for="gn" class="toggle-two">
+                                            <input type="checkbox" id="gn" checked>
+                                            <div class="switch" id="gn"></div>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="p-info">
+                                <h4>personal information</h4>
+                                <div class="gi">
+                                    <span>
+                                        email: 
+                                        <span class="rep">
+                                            o@nn.com
+                                        </span>
+                                    </span>
+                                    <span>
+                                        phone: 
+                                        <span class="rep">
+                                            0690000000
+                                        </span>
+                                    </span>
+                                    <span>
+                                        birthday: 
+                                        <span class="rep">
+                                            27/08/2000  
+                                        </span>
+                                    </span>
+                                    <label for="gn2" class="toggle-two">
+                                            <input type="checkbox" id="gn2">
+                                            <div class="switch" id="gn2"></div>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="p-info">
+                                <h4>job information</h4>
+                                <div class="gi">
+                                    <span>
+                                        title: 
+                                        <span class="rep">
+                                            full-stuck developer
+                                        </span>
+                                    </span>
+                                    <span>
+                                        programming language: 
+                                        <span class="rep">
+                                            python
+                                        </span>
+                                    </span>
+                                    <span>
+                                        years of experience: 
+                                        <span class="rep">
+                                            15+  
+                                        </span>
+                                    </span>
+                                    <label for="gn3" class="toggle-two">
+                                            <input type="checkbox" id="gn3" checked>
+                                            <div class="switch" id="gn3"></div>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="p-info">
+                                <h4>billing information</h4>
+                                <div class="gi">
+                                    <span>
+                                        payment method: 
+                                        <span class="rep">
+                                            paypal
+                                        </span>
+                                    </span>
+                                    <span>
+                                        email: 
+                                        <span class="rep">
+                                            ot555@gmail.com
+                                        </span>
+                                    </span>
+                                    <span>
+                                        subscription: 
+                                        <span class="rep">
+                                            yearly  
+                                        </span>
+                                    </span>
+                                    <label for="gn4" class="toggle-two">
+                                            <input type="checkbox" id="gn4">
+                                            <div class="switch" id="gn4"></div>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="profile-skills box br-10 p-20">
+                        <div class="text">
+                            <h2>my skills</h2>
+                            <span>complete skills list</span>
+                        </div>
+                            <div class="skills">
+                                <div class="skill-row">
+                                    <span class="btn-shape">HTML</span>
+                                    <span class="btn-shape">Pugjs</span>
+                                    <span class="btn-shape">HAML</span>
+                                </div>
+                                <div class="skill-row">
+                                    <span class="btn-shape">CSS</span>
+                                    <span class="btn-shape">SASS</span>
+                                    <span class="btn-shape">Stylus</span>
+                                </div>
+                                <div class="skill-row">
+                                    <span class="btn-shape">JavaScript</span>
+                                    <span class="btn-shape">TypeScript</span>
+                                </div>
+                                <div class="skill-row">
+                                    <span class="btn-shape">Vuejs</span>
+                                    <span class="btn-shape">Reactjs</span>
+                                </div>
+                                <div class="skill-row">
+                                    <span class="btn-shape">Jest</span>
+                                    <span class="btn-shape">Jasmine</span>
+                                </div>
+                                <div class="skill-row">
+                                    <span class="btn-shape">PHP</span>
+                                    <span class="btn-shape">Laravel</span>
+                                </div>
+                                <div class="skill-row">
+                                    <span class="btn-shape">Python</span>
+                                    <span class="btn-shape">Django</span>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="profile-activities box br-10 p-20">
+                        <div class="text">
+                            <h2>latest activities</h2>
+                            <span>latest activities done by the user</span>
+                        </div>
+                        <div class="activities">
+                            <div class="activity">
+                                <img src="images/activity-01.png" alt="">
+                                <div class="act-info">
+                                    <span>store</span>
+                                    <span>bought the mastering python course</span>
+                                </div>
+                                <div class="act-time">
+                                    <span>18:10</span>
+                                    <span>yesterday</span>
+                                </div>
+                            </div>
+                            <div class="activity">
+                                <img src="images/activity-02.png" alt="">
+                                <div class="act-info">
+                                    <span>academy</span>
+                                    <span>got the PHP certificate</span>
+                                </div>
+                                <div class="act-time">
+                                    <span>16:05</span>
+                                    <span>yesterday</span>
+                                </div>
+                            </div>
+                            <div class="activity">
+                                <img src="images/activity-03.png" alt="">
+                                <div class="act-info">
+                                    <span>badges</span>
+                                    <span>unlocked the 10 skills badges</span>
+                                </div>
+                                <div class="act-time">
+                                    <span>18:05</span>
+                                    <span>yesterday</span>
+                                </div>
+                            </div>
+                            <div class="activity">
+                                <img src="images/activity-01.png" alt="">
+                                <div class="act-info">
+                                    <span>store</span>
+                                    <span>bought the mastering python course</span>
+                                </div>
+                                <div class="act-time">
+                                    <span>12:05</span>
+                                    <span>yesterday</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </main>
+        <!-- MAIN -->
+    </div>
 
 </body>
 
