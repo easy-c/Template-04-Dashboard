@@ -47,11 +47,23 @@
 .b-1 {
     border: 1px solid white;
 }
+.b-2 {
+    border: 2px solid white;
+}
 /* border */
 
 /* padding + margin ... */
 .p-20 {
     padding: 20px;
+}
+.pt-10 {
+    padding-top: 10px;
+}
+.pr-20 {
+    padding-right: 20px;
+}
+.pb-10 {
+    padding-bottom: 10px;
 }
 .pl-20 {
     padding-left: 20px;
@@ -64,6 +76,11 @@
 .flex-center {
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+.flex-between {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 /* colors */
@@ -143,8 +160,17 @@
 /* colors */
 
 /* width + height */
+.min-w-full {
+    min-width: 100%;
+}
+.max-w-full {
+    max-width: 100%;
+}
 .max-w-40 {
     width: 40px;
+}
+.max-w-60 {
+    width: 60px;
 }
 .w-20 {
     width: 20%;
