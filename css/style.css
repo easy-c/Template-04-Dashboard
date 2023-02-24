@@ -2095,5 +2095,70 @@ main.files .files-holder .files-stats a.upload:hover i {
 }
 }
 /* main ( files ) */
+/* main ( plans ) */
+main.plans .price {
+    border: 3px solid white;
+    color: white;
+    line-height: 1.3;
+}
+main.plans .price span:first-child {
+    font-size: 30px;
+}
+main.plans .price span:last-child {
+    font-size: 40px;
+    margin-left: -18px;
+}
+main.plans ul.features li.true,
+main.plans ul.features li.false {
+    position: relative;
+    padding: 10px 0 10px 30px;
+}
+main.plans ul.features li.true::before {
+    content: "\f00c";
+    left: 0;
+    color: var(--green-color);
+}
+main.plans ul.features li.false::before {
+    content: "\f00d";
+    left: 0;
+    color: var(--red-color);
+}
+main.plans ul.features li.true::before ,
+main.plans ul.features li.false::before {
+    font-size: 18px;
+}
+main.plans ul.features li.all {
+    position: relative;
+    padding: 10px 0 10px 30px;
+    border-bottom: 1px solid var(--eee-color) ;
+}
+@media (max-width:320px) {
+    main.plans ul.features li.all  {
+        font-size: 14px;
+    }
+}
+
+main.plans ul.features li.all::after {
+    content: "\f05a";
+    right: 0;
+    color: var(--p-color);
+    cursor: pointer;
+    font-size: 15px;
+}
+main.plans ul.features li.true::before ,
+main.plans ul.features li.false::before ,
+main.plans ul.features li.all::after {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* main ( plans ) */
 
 
