@@ -2134,7 +2134,7 @@ main.plans ul.features li.all {
 }
 @media (max-width:320px) {
     main.plans ul.features li.all  {
-        font-size: 14px;
+        font-size: 10px;
     }
 }
 
