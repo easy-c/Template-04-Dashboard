@@ -2096,6 +2096,9 @@ main.files .files-holder .files-stats a.upload:hover i {
 }
 /* main ( files ) */
 /* main ( plans ) */
+main.plans .container {
+    grid-template-columns: repeat(auto-fill,minmax(350px ,1fr));
+}
 main.plans .price {
     border: 3px solid white;
     color: white;
@@ -2134,7 +2137,7 @@ main.plans ul.features li.all {
 }
 @media (max-width:320px) {
     main.plans ul.features li.all  {
-        font-size: 10px;
+        font-size: 14px;
     }
 }
 
